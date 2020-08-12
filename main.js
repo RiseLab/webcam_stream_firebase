@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('../firebase_config.json')
+    fetch('firebase_config.json')
         .then(response => response.json())
         .then(data => {
             // App's Firebase configuration
